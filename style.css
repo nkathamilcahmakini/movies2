@@ -1,0 +1,183 @@
+#banner{
+text-align: center;
+}
+nav ul,li, a{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: black;  
+      font-size: 18px;
+} 
+ nav ul{
+      list-style-type: none;
+      text-align: center;
+      padding: 0, 5px;
+}
+nav ul,li, a{
+         text-transform: capitalize;
+         display: flex; 
+         padding: 15px;   
+} 
+.boxs{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px; 
+    align-items: center;
+    padding: 5px;
+    margin-left: 5%;
+  
+} 
+.boxs > i{
+    font-size: 20px;
+    margin-left: 15px;
+} 
+.boxs > input{
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+  
+}
+.flee2{
+    background-color: gold;
+    margin-top: -4.5%;
+    padding:5px 10px;
+    display: flex;
+    justify-content: space-between; 
+
+}
+#cata{
+    border-radius: 30px;
+    width: 200px;
+}
+.move{
+    border: solid;
+    width: 15%;
+    margin-left: 5%;
+    margin-top: 3%;
+    background-color: rgb(218, 218, 24);
+}
+#icons{
+    margin-right: 10%;
+}
+#icons2{
+    margin-right: 5%;
+}
+.series{
+    margin-left:20%;
+}
+.price{
+    margin-left:20%;
+}
+.gender{
+    margin-left:20%;
+}
+.age{
+    margin-left:20%;
+}
+.maps{
+    background-color: black;
+    padding: 20px;
+}
+#img{
+   margin-left: 43%;
+   height: 100px;
+}
+.checked {
+    color: orange;
+}
+#flee1{
+    border-radius: 10px;
+    width: 45px;
+    background-color: rgb(231, 21, 91);
+}
+#flee2{
+    border-radius: 10px;
+    width: 45px;
+    background-color: yellow;
+}
+.Content{
+    display: flex;
+    margin-left: 25%;
+    justify-content: space-between;
+    margin-top: -65%;
+}
+.Contents2{
+    display: flex;
+    margin-left: 25%;
+    justify-content: space-between;
+}
+.Contents3{
+    display: flex;
+    margin-left: 25%;
+    justify-content: space-between;
+}
+.Contents4{
+    display: flex;
+    margin-left: 25%;
+    justify-content: space-between;
+}
+.Contents5{
+    display: flex;
+    margin-left: 25%;
+    justify-content: space-between;
+}
+.pag a {
+    color: rgb(26, 24, 24);
+    float: left;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none; 
+}
+  
+.pag a.active {
+    background-color: orange;
+    color: blue;
+}
+.paga{
+    margin-left: 42%;
+}
+#flee3{
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    background-color: yellow;
+    margin-top: 5%;
+    margin-left: -23%;
+    font-size: 20px;
+}
+.nkatha{
+    display: flex;
+    justify-content: space-between;
+    background-color: purple;
+    color: white;
+} 
+.Networks{
+    margin-right: 5%;
+}
+.Company{
+    margin-left: 5%;
+}
+.dot{
+    display: flex;
+    justify-content: space-between;
+}
+@media(min-width: 385px) and (max-width:1200px) {
+    body{
+    }
+}
+@media(min-width: 345px) and (max-width:1080px) {
+    body{
+    }
+}
+@media(min-width: 350px) and (max-width: 1068px) {
+    body{
+    }
+}
+@media(min-width: 360px) and (max-width: 980px) {
+    body{
+    }
+}
